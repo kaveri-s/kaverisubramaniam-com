@@ -290,7 +290,7 @@ const StyledProject = styled.li`
 
     .img {
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
+      mix-blend-mode: normal;
       filter: grayscale(100%) contrast(1) brightness(90%);
 
       @media (max-width: 768px) {
