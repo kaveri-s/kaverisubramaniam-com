@@ -3,7 +3,7 @@ date: '2'
 title: 'Hybrid Cloud Architecture'
 cover: './cloud.png'
 github: 'https://github.com/kaveri-s/HybridCloud'
-external: ''
+external: 'https://github.com/kaveri-s/HybridCloud'
 tech:
   - OpenStack
   - Amazon Web Services

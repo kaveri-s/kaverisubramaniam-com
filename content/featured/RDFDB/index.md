@@ -3,7 +3,7 @@ date: '1'
 title: 'RDF Database over Minibase'
 cover: './rdf.png'
 github: 'https://github.com/kaveri-s/RdfDB'
-external: ''
+external: 'https://github.com/kaveri-s/RdfDB'
 tech:
   - Java
   - Minibase
