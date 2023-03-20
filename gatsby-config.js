@@ -7,6 +7,7 @@ module.exports = {
       'Kaveri Subramaniam is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
     siteUrl: 'https://kaverisubramaniam.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
+    twitter: '',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
