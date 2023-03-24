@@ -12,6 +12,7 @@ tech:
   - PHP
   - HTML
 showInProjects: true
+company: 'Arizona State University'
 ---
 
 A set of tasks including decoding binaries and web scripting to discover flags hidden in the code. Events organized by Prof. Ruoyu (Fish) Wang.
