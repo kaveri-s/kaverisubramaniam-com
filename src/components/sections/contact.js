@@ -91,13 +91,14 @@ const Contact = () => {
         </div>
         <div>
           <p className="contact-inner">
-            Are you just starting out and looking for some guidance? I'm here to help! As someone
-            who's been through the same journey, I'm offering 1-on-1 mentoring sessions where we can
-            discuss your goals, brainstorm ideas, and work together to achieve success...
+            Thanks for stopping by. I'd love to connect with you over a virtual coffee chat. Whether
+            you're seeking peer mentoring, career advice, or simply want to get to know me better,
+            I'm here to help. Please use the link below to schedule a time that works for you. I
+            look forward to chatting with you soon!
           </p>
 
           <PopupButton
-            url="https://calendly.com/kaveri-subramaniam/mentoring"
+            url="https://calendly.com/kaveri-subramaniam/coffee-chat"
             rootElement={document.getElementById('root')}
             text="Schedule a Meet"
             className="email-link"
