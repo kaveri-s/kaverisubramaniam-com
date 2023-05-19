@@ -1,4 +1,7 @@
 <div align="center">
+  Note from Me!!! Deliberately leaving this ReadMe intact in my fork. Do check out Brittany Chiang's original repository!<br>
+  My Website is hosted using <a href="https://vercel.com/" target="_blank">Vercel</a>
+  <br>
   <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/main/src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
