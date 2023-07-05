@@ -77,26 +77,17 @@ const Contact = () => {
 
       <h2 className="title">Get In Touch</h2>
       <div className="contact-grid">
+        <p className="contact-inner">
+          Welcome! Whether you're looking for job prospects, seeking mentoring, have a project idea,
+          or simply want to chat, I'm here to connect with you. Feel free to utilize either of the
+          buttons below to get in touch with me.
+        </p>
         <div>
-          <p className="contact-inner">
-            As I approach my graduation in May 2023, I am eager to discover new career
-            opportunities. If you're interested in hiring a motivated individual with a passion for
-            Cloud development, or wish to explore potential collaborations, don't hesitate to reach
-            out...
-          </p>
-
           <a className="email-link" href={`mailto:${email}`}>
-            Say Hello
+            Say Hello via Email
           </a>
         </div>
         <div>
-          <p className="contact-inner">
-            Thanks for stopping by. I'd love to connect with you over a virtual coffee chat. Whether
-            you're seeking peer mentoring, career advice, or simply want to get to know me better,
-            I'm here to help. Please use the link below to schedule a time that works for you. I
-            look forward to chatting with you soon!
-          </p>
-
           <PopupButton
             url="https://calendly.com/kaveri-subramaniam/coffee-chat"
             rootElement={document.getElementById('root')}
