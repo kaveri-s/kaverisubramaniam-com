@@ -65,13 +65,11 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) experiences to
-        simplify life and learning experiences. Currently, I’m doing a Master's in Computer Science
-        at{' '}
-        <a href="https://www.asu.edu/" target="_blank" rel="noreferrer">
-          Arizona State University
-        </a>
-        .
+        I'm a Software Engineer with professional experience designing, developing, and deploying
+        secure distributed cloud-based applications in high-level languages, primarily Java, and
+        Python using Agile. I've built distributed applications on Amazon Web Services, Oracle
+        Cloud, and OpenStack. I graduated with a Master's degree in Computer Science focused on
+        Distributed Systems and Middleware.
       </p>
     </>
   );
