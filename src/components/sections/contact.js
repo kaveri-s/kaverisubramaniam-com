@@ -38,7 +38,6 @@ const StyledContactSection = styled.section`
 
   .email-link {
     ${({ theme }) => theme.mixins.bigButton};
-    margin-top: 50px;
   }
 
   .contact-grid {
@@ -46,6 +45,8 @@ const StyledContactSection = styled.section`
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 5rem;
+    width: 800px;
+    margin: auto;
     margin-top: 50px;
 
     @media (max-width: 1080px) {
@@ -56,6 +57,9 @@ const StyledContactSection = styled.section`
   .contact-inner {
     text-align: justify;
     text-justify: inter-word;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
   }
 `;
 
@@ -76,25 +80,22 @@ const Contact = () => {
       <h2 className="numbered-heading overline">What’s Next?</h2>
 
       <h2 className="title">Get In Touch</h2>
+
+      <p className="contact-inner">
+        Welcome! Whether you're looking for job prospects, seeking mentoring, have a project idea,
+        or simply want to chat, I'm here to connect with you. Feel free to utilize either of the
+        buttons below to get in touch with me.
+      </p>
       <div className="contact-grid">
-        <p className="contact-inner">
-          Welcome! Whether you're looking for job prospects, seeking mentoring, have a project idea,
-          or simply want to chat, I'm here to connect with you. Feel free to utilize either of the
-          buttons below to get in touch with me.
-        </p>
-        <div>
-          <a className="email-link" href={`mailto:${email}`}>
-            Say Hello via Email
-          </a>
-        </div>
-        <div>
-          <PopupButton
-            url="https://calendly.com/kaveri-subramaniam/coffee-chat"
-            rootElement={document.getElementById('root')}
-            text="Schedule a Meet"
-            className="email-link"
-          />
-        </div>
+        <a className="email-link" href={`mailto:${email}`}>
+          Send me an Email
+        </a>
+        <PopupButton
+          url="https://calendly.com/kaveri-subramaniam/coffee-chat"
+          rootElement={document.getElementById('root')}
+          text="Schedule a Meet with me"
+          className="email-link"
+        />
       </div>
     </StyledContactSection>
   );
