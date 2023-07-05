@@ -137,20 +137,23 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Kaveri and I enjoy creating components of the Cloud. My interest in
-              Cloud started back in 2017 when I decided to reach out to a professor at the Cloud
-              Computing and Big Data Lab in my university. Turns out I loved playing around with
-              OpenStack!
+              Hello! My name is Kaveri. I’m a software engineer with a penchant for deconstructing
+              and building distributed systems. My very first exposure to a computer was through
+              Linux in the late 90s. In the early 2000s, I was building games on eToys and Squeak,
+              playing Tux Racer and exploring the terminal. In 2012, I decided I was going to study
+              operating systems, particularly in detail about compute, storage and networks. In
+              2017, I landed my first project on OpenStack, tinkering with Swift and luring me
+              toward distributed storage systems.
             </p>
 
             <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://www.wearemiq.com/">a startup advertising agency</a>,{' '}
-              <a href="https://www.oracle.com/cloud/">a huge corporation</a>, and{' '}
-              <a href="https://asu.edu/">a university</a>. My main focus these days is building
-              learning tools for women who are just starting out or switching careers into tech and
-              are interested in engineering applications that run entirely on the Cloud at{' '}
-              <a href="https://www.womenwhocode.com/">Women Who Code</a>
+              <a href="https://www.wearemiq.com/">a programmatic media company</a>,{' '}
+              <a href="https://www.oracle.com/cloud/">a global enterprise</a>, and{' '}
+              <a href="https://asu.edu/">a public university</a>. These days I've been actively
+              immersing myself in coding projects, connecting and engaging in mentorship with
+              professionals in the industry, and working on raising my visibility in relevant
+              communities.
             </p>
 
             {/* <p>
