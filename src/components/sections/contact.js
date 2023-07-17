@@ -82,9 +82,9 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p className="contact-inner">
-        Welcome! Whether you're looking for job prospects, seeking mentoring, have a project idea,
-        or simply want to chat, I'm here to connect with you. Feel free to utilize either of the
-        buttons below to get in touch with me.
+        Welcome! Whether you're a professional in the industry, or someone interested in seeking
+        mentoring, have a project idea, or simply want to chat, I'm here to connect with you. Feel
+        free to utilize either of the buttons below to get in touch with me.
       </p>
       <div className="contact-grid">
         <a className="email-link" href={`mailto:${email}`}>
