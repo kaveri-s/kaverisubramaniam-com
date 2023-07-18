@@ -139,17 +139,16 @@ const About = () => {
             <p>
               Hello! My name is Kaveri. I’m a software engineer with a penchant for deconstructing
               and building distributed systems. My very first exposure to a computer was through
-              Linux in the late 90s. In the early 2000s, I was building games on eToys and Squeak,
-              playing Tux Racer and exploring the terminal. In 2012, I decided I was going to study
-              operating systems, particularly in detail about compute, storage and networks. In
-              2017, I landed my first project on OpenStack, tinkering with Swift and luring me
-              toward distributed storage systems.
+              Linux in the late 90s. In the early 2000s, I was building games on eToys and Squeak.
+              In 2012, I decided I was going to study operating systems, particularly in detail
+              about compute, storage and networks. In 2017, I landed my first project on OpenStack,
+              tinkering with Swift and luring me toward distributed storage systems.
             </p>
 
             <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
               <a href="https://www.wearemiq.com/">a programmatic media company</a>,{' '}
-              <a href="https://www.oracle.com/cloud/">a global enterprise</a>, and{' '}
+              <a href="https://www.oracle.com/cloud/">a major cloud vendor</a>, and{' '}
               <a href="https://asu.edu/">a public university</a>. These days I've been actively
               immersing myself in coding projects, connecting and engaging in mentorship with
               professionals in the industry, and working on raising my visibility in relevant
